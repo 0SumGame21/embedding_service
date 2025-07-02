@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-# Load model once at startup
+# Load model once at startupssss
 print("Loading embedding model...")
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 print("Model ready!")
